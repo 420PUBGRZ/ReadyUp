@@ -1,12 +1,12 @@
 import React from 'react';
 import { StyleSheet, Text, View, Image } from 'react-native';
-import { Sound } from 'react-native-sound';
+import Sound from 'react-native-sound';
 export default class App extends React.Component {
 
   constructor(props) {
     super(props)
   }
-  
+
   render() {
     return (
       <View style={styles.container}>
