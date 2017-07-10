@@ -1,31 +1,29 @@
 {
-  "name": "Readyup",
-  "version": "0.1.0",
-  "private": true,
-  "description": "A goof app to send audio ready ups to friends",
-  "repository": "https://github.com/420PUBGRZ/ReadyUp.git",
-  "author": "Darionfman <darionfman@gmail.com>",
-  "license": "MIT",
-  "devDependencies": {
-    "jest-expo": "~18.0.0",
-    "react-native-scripts": "0.0.40",
-    "react-test-renderer": "16.0.0-alpha.12"
-  },
-  "main": "./node_modules/react-native-scripts/build/bin/crna-entry.js",
-  "scripts": {
-    "start": "react-native-scripts start",
-    "eject": "react-native-scripts eject",
-    "android": "react-native-scripts android",
-    "ios": "react-native-scripts ios",
-    "test": "node node_modules/jest/bin/jest.js --watch"
-  },
-  "jest": {
-    "preset": "jest-expo"
-  },
-  "dependencies": {
-    "expo": "^18.0.3",
-    "react": "16.0.0-alpha.12",
-    "react-native": "^0.45.1",
-    "react-native-sound": "^0.10.3"
-  }
+	"name": "ReadyUp",
+	"version": "0.0.1",
+	"private": true,
+	"description": "A goof app to send audio ready ups to friends",
+	"repository": "https://github.com/420PUBGRZ/ReadyUp.git",
+	"author": "Darionfman <darionfman@gmail.com>",
+	"license": "MIT",
+	"scripts": {
+		"start": "node node_modules/react-native/local-cli/cli.js start",
+		"android": "react-native run-android",
+		"ios": "react-native run-ios",
+		"test": "jest"
+	},
+	"dependencies": {
+		"react": "16.0.0-alpha.12",
+		"react-native": "0.46.1",
+		"react-native-sound": "^0.10.3"
+	},
+	"devDependencies": {
+		"babel-jest": "20.0.3",
+		"babel-preset-react-native": "2.1.0",
+		"jest": "20.0.4",
+		"react-test-renderer": "16.0.0-alpha.12"
+	},
+	"jest": {
+		"preset": "react-native"
+	}
 }
